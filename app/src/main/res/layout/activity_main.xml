@@ -19,11 +19,8 @@
             app:cardBackgroundColor="#FFFFFF"
             android:layout_marginBottom="16dp">
 
-            <!-- CardView contents here -->
-
         </androidx.cardview.widget.CardView>
-
-        <!-- RecyclerView for transactions list -->
+        
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/transactionList"
             android:layout_width="match_parent"
