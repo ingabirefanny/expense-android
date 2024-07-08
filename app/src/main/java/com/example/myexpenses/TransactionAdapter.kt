@@ -34,7 +34,6 @@ class TransactionAdapter {
                     if (transaction.isIncome) R.drawable.ic_income else R.drawable.ic_expense
                 )
             } else {
-                // Handle the case where the position is out of bounds
                 holder.name.text = ""
                 holder.amount.text = ""
                 holder.date.text = ""
